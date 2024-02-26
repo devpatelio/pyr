@@ -1,0 +1,64 @@
+{
+    "os": "macOS-14.1-arm64-arm-64bit",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-02-26T19:43:54.919715",
+    "startedAt": "2024-02-26T19:43:54.197294",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--img",
+        "640",
+        "--batch-size",
+        "32",
+        "--epochs",
+        "100",
+        "--data",
+        "/Users/devpatel/Downloads/development/pyr/yolov5/BCCD_Custom/data.yaml",
+        "--weights",
+        "yolov5s.pt",
+        "--workers",
+        "1",
+        "--project",
+        "bccd_custom",
+        "--name",
+        "yolov5s_size640_epochs100_batch32_small",
+        "--save-period",
+        "1",
+        "--device",
+        "mps"
+    ],
+    "state": "running",
+    "program": "/Users/devpatel/Downloads/development/pyr/yolov5/train.py",
+    "codePathLocal": "yolov5/train.py",
+    "codePath": "yolov5/train.py",
+    "host": "wifi-10-45-236-67.wifi.berkeley.edu",
+    "username": "devpatel",
+    "executable": "/Users/devpatel/miniconda3/bin/python",
+    "cpu_count": 11,
+    "cpu_count_logical": 11,
+    "cpu_freq": {
+        "current": 4056,
+        "min": 696,
+        "max": 4056
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4056,
+            "min": 696,
+            "max": 4056
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 12.598190307617188
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 18.0
+    }
+}
